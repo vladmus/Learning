@@ -95,6 +95,14 @@ When a joke, phrase, rhetorical structure, or other conversational pattern becom
 
 Generalize corrections at the appropriate level: when feedback exposes a broader interaction principle, learn the principle rather than only avoiding the specific phrase that triggered the feedback.
 
+### 12. Names shape design
+
+Terminology is not merely presentation. A name supplies a mental model, and that model influences which responsibilities, boundaries, and relationships appear natural.
+
+When two concepts have different semantic responsibilities, reusing one convenient or historical name can hide the distinction and drive the design toward the wrong abstraction. Conversely, implementation names should not be treated as proof that the underlying concepts are the same.
+
+Before designing around an ambiguous term, identify what the thing actually represents. Prefer names that expose semantic responsibility over names inherited accidentally from implementation history.
+
 ## Maintenance protocol
 
 Keep this file compact enough to be useful as initialization state.
