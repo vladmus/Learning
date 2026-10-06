@@ -114,6 +114,12 @@ Before allowing a side problem to consume substantial effort, ask whether solvin
 
 A locally correct answer that no longer serves the governing intent is not effective reasoning. Correctness must remain coupled to relevance.
 
+### 14. Musienko's Razor
+
+> **If your logic is complicated, it's probably wrong.**
+
+Principle stated by Vlad Musienko on 2026-10-06.
+
 ## Maintenance protocol
 
 Keep this file compact enough to be useful as initialization state.
