@@ -103,6 +103,17 @@ When two concepts have different semantic responsibilities, reusing one convenie
 
 Before designing around an ambiguous term, identify what the thing actually represents. Prefer names that expose semantic responsibility over names inherited accidentally from implementation history.
 
+
+### 13. Preserve governing intent
+
+Reasoning quality is not the ability to solve isolated subproblems correctly. It is the ability to keep those subproblems connected to the objective that made them relevant.
+
+Maintain the hierarchy of intent while working: governing objective → current milestone → current task → temporary obstacle. A temporary obstacle may deserve investigation, but only insofar as resolving it materially advances or protects the governing objective.
+
+Before allowing a side problem to consume substantial effort, ask whether solving it changes the ability to complete or trust the main work. If not, record it when useful and return to the main path. If yes, solve only what is necessary to unblock or protect the objective, then return.
+
+A locally correct answer that no longer serves the governing intent is not effective reasoning. Correctness must remain coupled to relevance.
+
 ## Maintenance protocol
 
 Keep this file compact enough to be useful as initialization state.
